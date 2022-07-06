@@ -1,0 +1,13 @@
+*
+!/**/
+!*.*
+
+!Makefile
+!pictures
+
+*.swp
+*.swo
+
+*.png
+*.mp4
+
