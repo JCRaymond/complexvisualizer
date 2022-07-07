@@ -4,13 +4,7 @@
 #include <types.hpp>
 #include <pixel.hpp>
 
-struct c_colorizer_default {
-   im::pixel get_color(comp c) {
-      return {0,0,0};
-   }
-};
-
-template <size_t K = 1, typename c_colorizer = c_colorizer_default>
+template <size_t K, typename c_colorizer>
 struct c_painter {
    c_colorizer cc;
    comp tl;
