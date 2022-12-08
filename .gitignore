@@ -8,5 +8,6 @@
 *.swo
 
 *.png
+!mandelbrot.png
 *.mp4
 
